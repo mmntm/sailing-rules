@@ -1,0 +1,22 @@
+{
+  "name": "Pravidlá ala Yachtingu",
+  "heading": "Welcom na hlavnej stranke Pravidiel pre pravidla yachtingu",
+  "toc": "Obsah",
+  "introduction": {
+    "title": "Úvod",
+    "firstParagraph": "<0>{{appName}}</0> obsahuje dve hlavné sekcie. Prvá (časti 1-7) zahŕňa pravidlá vzťahujúce sa na všetkých závodníkov. Druhá (dodatky), zahŕňa detaily pravidiel, pravidlá vzťahujúce sa na špeciálne typy závodenia a pravidlá ovplyvňujúce len mály počet pretekárov.",
+    "terminology": {
+      "title": "Terminológia",
+      "text": "Výraz použitý vo význame opísanom v sekcii Definície je napísaný kurzívou, alebo v preambuliach s tučnou kurzívou ( napríklad <1>pretekanie</1> and <1><2>pretekanie<2/></1>). )"
+    },
+    "testRule": "Testovacie pravidlo <1>o pohyblivej záťaži</1>, ktore tu je cisto len na znazornenie prelinku"
+  },
+  "rules": {
+    "name": "Pravidlá",
+    "TheRuleOfMoveableBallast": {
+      "name": "Pravidlo o pohyblivej záťaži",
+      "previewLinkText": "Celá pohyblivá záťaž musí byť primerane upevnená a voda, mŕtva hmota alebo záťaž sa nesmie pohybovať kvôli zmene trimu alebo stability. Podlážky, prepážky, dvere, schodíky a nádrže na vodu musia byť ponechané na mieste a celé pevné príslušenstvo kabín musí byť na lodi.",
+      "text": "Celá pohyblivá záťaž musí byť primerane upevnená a voda, mŕtva hmota alebo záťaž sa nesmie pohybovať kvôli zmene trimu alebo stability. Podlážky, prepážky, dvere, schodíky a nádrže na vodu musia byť ponechané na mieste a celé pevné príslušenstvo kabín musí byť na lodi."
+    }
+  }
+}
