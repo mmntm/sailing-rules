@@ -15,17 +15,41 @@ export const IntroductionPage = () => {
       </Typography>
       <Typography gutterBottom variant={"body1"}>
         <Trans t={t} i18nKey={"introduction.firstParagraph"}>
-          <strong>{{ appName }}</strong> obsahuje dve hlavné sekcie. Prvá (časti
+          <b>{{ appName }}</b> obsahuje dve hlavné sekcie. Prvá (časti
           1-7) zahŕňa pravidlá vzťahujúce sa na všetkých závodníkov. Druhá
           (dodatky), zahŕňa detaily pravidiel, pravidlá vzťahujúce sa na
           špeciálne typy závodenia a pravidlá ovplyvňujúce len mály počet
           pretekárov.
         </Trans>
       </Typography>
+      <Typography gutterBottom variant={"body1"}>
+        <Trans t={t} i18nKey={"introduction.firstParagraph"}>
+          <b>{{ appName }}</b> obsahuje dve hlavné sekcie. Prvá (časti
+          1-7) zahŕňa pravidlá vzťahujúce sa na všetkých závodníkov. Druhá
+          (dodatky), zahŕňa detaily pravidiel, pravidlá vzťahujúce sa na
+          špeciálne typy závodenia a pravidlá ovplyvňujúce len mály počet
+          pretekárov.
+        </Trans>
+      </Typography>
+      <Typography gutterBottom variant={"body1"}>
+        <Trans t={t} i18nKey={"introduction.test123"}>
+          Ahoj dneska je super <b>den</b> test lolo <i>peter</i>
+        </Trans>
+      </Typography>
+      <Typography gutterBottom variant={"body1"}>
+        <Trans t={t} i18nKey={"introduction.test123"}>
+          Ahoj dneska je super <b>den</b> test lolo <i>peter</i>
+        </Trans>
+      </Typography>
       <Typography variant={"body1"}>
         <Trans t={t} i18nKey={"introduction.testRule"}>
           Testovacie pravidlo <PreviewLink to={RuleRoutes.TheRuleOfMoveableBallast.link} previewText={t('rules.TheRuleOfMoveableBallast.previewLinkText')}>pohyblyvej zatazi</PreviewLink>, ktore tu
           je cisto len na znazornenie prelinku
+        </Trans>
+      </Typography>
+      <Typography variant={"body1"}>
+        <Trans t={t} i18nKey={"introduction.linkNaTest"}>
+          Toto je link na <PreviewLink to={'/test'} previewText={t('test.previewLinkText')}>test stranku</PreviewLink>
         </Trans>
       </Typography>
     </Layout>

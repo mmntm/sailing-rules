@@ -9,7 +9,8 @@
       "title": "Terminology",
       "text": " A term used in the sense stated in the Definitions is printed in italics or, in preambles, in bold italics (for example, <1>racing</1> and <1><2>racing<2/></1>)."
     },
-    "testRule": "Testing rule of <1>moveable ballast</1>, whose sole purpose is to demonstrate custom link component"
+    "testRule": "Testing rule of <1>moveable ballast</1>, whose sole purpose is to demonstrate custom link component",
+    "linkNaTest": "This is a link to <1>testing page</1>"
   },
   "rules": {
     "name": "Rules",
@@ -18,5 +19,10 @@
       "previewLinkText": "All movable ballast, including sails that are not set, shall be properly stowed. Water, dead weight or ballast shall not be moved for the purpose of changing trim or stability. Floorboards, bulkheads, doors, stairs and water tanks shall be left in place and all cabin fixtures kept on board. However, bilge water may be bailed out.",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, optio natus."
     }
+  },
+  "test": {
+    "title": "Testing page",
+    "previewLinkText": "This is a preview of testing page",
+    "opisniecoho": "This a special"
   }
 }

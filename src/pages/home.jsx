@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { ChangeLanguage } from "../components/shared/ChangeLanguage/ChangeLanguage";
 import { Layout } from "../components/shared/Layout/Layout";
 

@@ -8,6 +8,7 @@ import { muiTheme } from "./components/shared/theme/theme";
 import { IntroductionPage } from "./pages/introduction";
 import { Layout } from "./components/shared/Layout/Layout";
 import { TheRuleOfMoveableBallastPage } from "./pages/rules/TheRuleOfMoveableBallast";
+import { TestPage } from "./pages/test";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path="/introduction">
               <IntroductionPage />
+            </Route>
+            <Route path="/test">
+              <TestPage/>
             </Route>
             {/* RULES */}
             <Route path="/rules/the-rule-of-moveable-ballast">

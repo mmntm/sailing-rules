@@ -71,6 +71,15 @@ export const SideList = () => {
       >
         <ListItemText primary={t("introduction.title")} />
       </ListItem>
+      
+      <ListItem
+        button
+        component={NavLink}
+        to="/test"
+        activeClassName={classes.activeLink}
+      >
+        <ListItemText primary={t("test.title")} />
+      </ListItem>
 
       <ListItem button onClick={handleClick}>
         <ListItemText primary={t("rules.name")} />

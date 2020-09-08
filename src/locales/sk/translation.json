@@ -9,7 +9,9 @@
       "title": "Terminológia",
       "text": "Výraz použitý vo význame opísanom v sekcii Definície je napísaný kurzívou, alebo v preambuliach s tučnou kurzívou ( napríklad <1>pretekanie</1> and <1><2>pretekanie<2/></1>). )"
     },
-    "testRule": "Testovacie pravidlo <1>o pohyblivej záťaži</1>, ktore tu je cisto len na znazornenie prelinku"
+    "testRule": "Testovacie pravidlo <1>o pohyblivej záťaži</1>, ktore tu je cisto len na znazornenie prelinku",
+    "test123": "Ahoj dneska je super <1>den</1> test lolo <3>peter</3>",
+    "linkNaTest": "Toto je link na <1>test stranku</1>"
   },
   "rules": {
     "name": "Pravidlá",
@@ -18,5 +20,10 @@
       "previewLinkText": "Celá pohyblivá záťaž musí byť primerane upevnená a voda, mŕtva hmota alebo záťaž sa nesmie pohybovať kvôli zmene trimu alebo stability. Podlážky, prepážky, dvere, schodíky a nádrže na vodu musia byť ponechané na mieste a celé pevné príslušenstvo kabín musí byť na lodi.",
       "text": "Celá pohyblivá záťaž musí byť primerane upevnená a voda, mŕtva hmota alebo záťaž sa nesmie pohybovať kvôli zmene trimu alebo stability. Podlážky, prepážky, dvere, schodíky a nádrže na vodu musia byť ponechané na mieste a celé pevné príslušenstvo kabín musí byť na lodi."
     }
+  },
+  "test": {
+    "title": "Test stranka",
+    "previewLinkText": "Toto je preview stranky Test",
+    "opisniecoho": "Toto je nejaky specialny opis pravidla"
   }
 }
